@@ -1,0 +1,7 @@
+applications:
+- name: smart-lender
+  memory: 512M
+  instances: 1
+  random-route: true
+  buildpacks:
+    - python_buildpack
